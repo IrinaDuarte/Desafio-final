@@ -25,9 +25,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 20px;
     a {
       color: white;
-      font-size: 20px;
     }
   }
 }
@@ -43,6 +43,7 @@ header {
   border-radius: 15px;
   padding-left: 15px;
   input {
+    width: 12vw;
     background-color: transparent;
     outline: none;
     border: none;
@@ -50,6 +51,60 @@ header {
     font-size: 15px;
     &::placeholder {
       color: white;
+    }
+  }
+}
+
+@media (max-width: 1084px) {
+  .boxLogo {
+    width: 25vw;
+    h1 {
+      font-size: 1.8vw;
+    }
+    img {
+      width: 5vw;
+    }
+  }
+
+  .boxMenu {
+    ul {
+      font-size: 1.7vw;
+    }
+  }
+}
+
+.boxInput {
+  width: 17vw;
+  input {
+    &::placeholder {
+      font-size: 1.2vw;
+    }
+  }
+}
+
+@media (max-width: 680px) {
+  header {
+    height: 25vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .boxInput {
+    display: none;
+  }
+  .boxLogo {
+    width: 100%;
+    h1 {
+      font-size: 25px;
+    }
+    img {
+      width: 60px;
+    }
+  }
+  .boxMenu {
+    width: 100%;
+    ul {
+      justify-content: space-evenly;
+      font-size: 20px;
     }
   }
 }

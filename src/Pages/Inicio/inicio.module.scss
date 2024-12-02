@@ -48,3 +48,15 @@
     }
   }
 }
+
+@media (max-width: 1196px) {
+  .banner {
+    background-size: cover;
+  }
+}
+
+@media (max-width: 948px) {
+  .banner {
+    background-position: center;
+  }
+}

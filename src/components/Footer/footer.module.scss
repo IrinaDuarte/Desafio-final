@@ -27,3 +27,21 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 876px) {
+  .boxSocial {
+    nav {
+      width: 250px;
+    }
+  }
+}
+
+@media (max-width: 706px) {
+  .boxSocial {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .boxEnd {
+    text-align: center;
+  }
+}

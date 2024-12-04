@@ -55,8 +55,67 @@
   }
 }
 
+@media (max-width: 975px) {
+  .boxCard {
+    article {
+      p {
+        font-size: 1.4vw;
+      }
+    }
+  }
+}
+
 @media (max-width: 948px) {
   .banner {
     background-position: center;
+  }
+}
+
+@media (max-width: 830px) {
+  .boxCard {
+    article {
+      width: 22%;
+      p {
+        font-size: 1.6vw;
+      }
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  .banner {
+    justify-content: center;
+    h2 {
+      width: 80%;
+      margin-left: 0;
+      text-align: center;
+    }
+  }
+  .devoDoar {
+    height: auto;
+    div {
+      justify-content: center;
+      h2 {
+        margin-left: 0;
+      }
+    }
+    .boxCard {
+      height: 90vh;
+      flex-wrap: wrap;
+      gap: 10px;
+      article {
+        width: 230px;
+        height: 38vh;
+      }
+    }
+  }
+}
+
+@media (max-width: 469px) {
+  .boxCard {
+  }
+
+  .devoDoar {
+    height: 200vh;
   }
 }

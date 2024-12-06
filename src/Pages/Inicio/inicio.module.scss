@@ -44,7 +44,7 @@
     p {
       text-align: center;
       width: 70%;
-      font-size: 15px;
+      font-size: 18px;
     }
   }
 }
@@ -71,12 +71,12 @@
   }
 }
 
-@media (max-width: 830px) {
+@media (max-width: 885px) {
   .boxCard {
     article {
-      width: 22%;
+      width: 23%;
       p {
-        font-size: 1.6vw;
+        font-size: 2.5vw;
       }
     }
   }
@@ -113,6 +113,11 @@
 
 @media (max-width: 469px) {
   .boxCard {
+    article {
+      p {
+        font-size: 4.5vw;
+      }
+    }
   }
 
   .devoDoar {
